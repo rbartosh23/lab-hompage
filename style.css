@@ -1,1 +1,24 @@
-/* Add your styles here. */
+/* Type Selectors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #0023af;
+}
+/* Class Selectors */
+.bold {
+    font-weight: bold;
+}
+#top {
+    color: #af2f00;
+}
+a {
+    color: #00af2f;
+}
+a:hover {
+    background-color: #f2d6d9;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
